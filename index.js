@@ -7,7 +7,7 @@ const app = express();
 const cors = require('cors');
 const morgan = require('morgan');
 const port = process.env.PORT;
-// const datbase = require('./database')
+const datbase = require('./database')
 
 
 // //user routes
